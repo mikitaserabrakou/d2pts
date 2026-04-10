@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded Background -->
+  <rect width="128" height="128" rx="24" fill="#1b1e21"/>
+  
+  <!-- Accent Bar (Optional Dota-style detail) -->
+  <rect y="100" width="128" height="28" rx="0 0 24 24" fill="#a93c32"/>
+  
+  <!-- Text -->
+  <text 
+    x="50%" 
+    y="55%" 
+    text-anchor="middle" 
+    fill="white" 
+    font-family="Arial, sans-serif" 
+    font-weight="bold" 
+    font-size="34">
+    D2PTS
+  </text>
+</svg>

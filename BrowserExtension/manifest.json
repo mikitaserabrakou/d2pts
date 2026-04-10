@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Dota2ProTracker Hero Switcher",
+  "version": "1.0.1",
+  "description": "Polls an API and updates dota2protracker hero tab",
+  "icons": {
+    "128": "icons/icon.svg"
+  },
+  "action": {
+    "default_icon": "icon.svg"
+  },
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "https://localhost:5005/*",
+    "*://dota2protracker.com/hero/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "D2PTS@nvcb16",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
